@@ -4,14 +4,14 @@
 //This time, we will encapsulate the "doing something" part in a function outside the for loop.
 //Notice that the function we've encapsulated the "doing something" part in doesn't have a return statement, since it doesn't return anything.
 
-let baseArray = [1,2,3,4,5,6,7,8,9,0]
+let baseArray = [1,2,3,4,5,6,7,8,9,0];
 
 function logger(someMessage) {
     console.log(someMessage); //this is the DOING something part
 }
 
 for (let i = 0; i < baseArray.length; i++) {
-    logger(baseArray[i]) 
+    logger(baseArray[i]); 
 }
 
 //end
